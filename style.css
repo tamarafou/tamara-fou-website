@@ -23,3 +23,7 @@ h1{
   background-color: cadetblue;
   text-align: center;
 }
+
+nav top{
+    display:inline;
+}
