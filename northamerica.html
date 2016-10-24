@@ -1,5 +1,28 @@
 <html>
-<head><link href="./style.css" type="text/css" rel="stylesheet"></head>
+<head><link href="./style.css" type="text/css" rel="stylesheet">
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 460px;
+}
+
+div.img:hover {
+    border: 2px solid #444;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
 <body>
 <title>North America</title>
     <h1><center><font color="#54a1ba">North America</font></center></h1>
@@ -32,7 +55,26 @@
             </center>
     <br/>
     <br/>
-        
-<img src="http://sites.bxmc.poly.edu/~tamarafou/Midterm%20Project/northamerica.png" alt="northamerica" width="1000" height="600" align="center"/>
+ <div class="img">
+  <a href="bahamas.html">
+    <img src="bahama.jpg" alt="Bahama">
+  </a>
+  <div class="desc">Bahamas</div>
+</div>
+    
+<div class="img">
+  <a href="canada.html">
+    <img src="canada.jpg" alt="Canada">
+  </a>
+  <div class="desc">Canada</div>
+</div>
+    
+<div class="img">
+  <a href="usa.html">
+    <img src="usa.Jpg" alt="United States">
+  </a>
+  <div class="desc">United States</div>
+</div> 
+
 </body>
 </html>
