@@ -1,7 +1,6 @@
 h1{
     color:#54a1ba;
     font-size:50px;
-    font-family:Helevetica;
     width: 100%;
     text-align: center;
     top: 0px;
@@ -15,10 +14,20 @@ h1{
     position:absolute;
 }
 
-.header{
-    position:absolute;
-    left:0;
-    top:0;   
+p {
+    margin: 25px 200px;
+}
+
+h2{
+    margin:25px 200px;
+}
+
+h3{
+    margin:25px 200px;
+}
+
+h4{
+    margin:25px 200px;
 }
 
 img {
@@ -66,25 +75,29 @@ text-align: center;
     padding: 20px;
     font-size: 25px;
     cursor: pointer;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 0px 2px 0px rgba(0,0,0,0.2);
    
 }
 
 .dropdown {
     position:relative;
     display: inline-block;
-    max-width: 150px
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
+    align-content: center;
     background-color: #f9f9f9;
     min-width: 150px;
     max-height:150px;
     overflow-x:hidden;
     overflow-y:auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-left:1px solid;
+    border-right:1px solid;
+    border-bottom: 1px solid;
+
+
 }
 
 .dropdown-content a {
@@ -92,6 +105,7 @@ text-align: center;
     padding: 20px 16px;
     text-decoration: none;
     display: block;
+    border:0.5px solid;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
